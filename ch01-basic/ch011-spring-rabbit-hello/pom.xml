@@ -7,13 +7,10 @@
         <groupId>org.example.learn.spring.boot.rabbit</groupId>
         <artifactId>spring-boot-rabbit-learn</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>ch01-basic</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ch010-native-hello</module>
-    </modules>
+    <artifactId>ch011-spring-rabbit-hello</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -23,9 +20,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
         </dependency>
     </dependencies>
 </project>

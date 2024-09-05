@@ -5,15 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example.learn.spring.boot.rabbit</groupId>
-        <artifactId>spring-boot-rabbit-learn</artifactId>
+        <artifactId>ch01-basic</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ch01-basic</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ch010-native-hello</module>
-    </modules>
+    <artifactId>ch010-native-hello</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -23,9 +19,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
         </dependency>
     </dependencies>
 </project>

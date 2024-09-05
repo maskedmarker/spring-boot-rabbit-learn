@@ -12,6 +12,7 @@
         <module>ch00-commons</module>
         <module>ch01-basic</module>
         <module>ch02-spring-boot-rabbit</module>
+        <module>ch01-basic/ch011-spring-rabbit-hello</module>
     </modules>
 
     <properties>
