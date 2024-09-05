@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ch010-native-hello</module>
+        <module>ch011-spring-rabbit-hello</module>
     </modules>
 
     <properties>
@@ -22,9 +23,14 @@
     </properties>
 
     <dependencies>
-        <dependency>
+<!--        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>

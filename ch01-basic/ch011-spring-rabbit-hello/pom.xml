@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example.learn.spring.boot.rabbit</groupId>
-        <artifactId>spring-boot-rabbit-learn</artifactId>
+        <artifactId>ch01-basic</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <artifactId>ch011-spring-rabbit-hello</artifactId>
